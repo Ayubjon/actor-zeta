@@ -1,0 +1,3 @@
+/Users/ayubjon/Desktop/диплом/actor-zeta/examples/broadcast/cmake-build-debug/CMakeFiles/broadcast.dir
+/Users/ayubjon/Desktop/диплом/actor-zeta/examples/broadcast/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ayubjon/Desktop/диплом/actor-zeta/examples/broadcast/cmake-build-debug/CMakeFiles/rebuild_cache.dir
