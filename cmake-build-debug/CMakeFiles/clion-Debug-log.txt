@@ -1,0 +1,65 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/ayubjon/Desktop/диплом/ayubjon/actor-zeta -B /Users/ayubjon/Desktop/диплом/ayubjon/actor-zeta/cmake-build-debug
+-- The C compiler identification is AppleClang 13.1.6.13160021
+-- The CXX compiler identification is AppleClang 13.1.6.13160021
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_CXX_COMPILER_ID = AppleClang
+-- CMAKE_C_COMPILER_ID = AppleClang
+-- STANDARD CPP = 
+-- CMAKE_BUILD_TYPE = Debug
+Disable C++ exceptions.
+Disable RTTI.
+-- ALLOW_EXAMPLES = OFF
+-- ALLOW_TESTS = OFF
+-- ENABLE_TESTS_MEASUREMENTS = OFF
+-- ALLOW_BENCHMARK = OFF
+-- RTTI_DISABLE = ON
+-- EXCEPTIONS_DISABLE = ON
+-- Using shared linker flags : 
+-- Using exe linker flags    : 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- CONAN_SETTINGS: 
+-- Conan: Automatic detection of conan settings from cmake
+-- Conan: Settings= -s;build_type=Debug;-s;compiler=apple-clang;-s;compiler.version=13.1;-s;compiler.libcxx=libc++
+-- Conan: checking conan executable
+-- Conan: Found program /opt/homebrew/bin/conan
+-- Conan: Version found Conan version 2.15.1
+-- Conan executing: /opt/homebrew/bin/conan install . -s build_type=Debug -s compiler=apple-clang -s compiler.version=13.1 -s compiler.libcxx=libc++ -e=CC=/Library/Developer/CommandLineTools/usr/bin/cc -e=CXX=/Library/Developer/CommandLineTools/usr/bin/c++ -e=LDFLAGS= -g=cmake --build=missing
+usage: conan install [-h] [-v [V]] [-cc CORE_CONF] [-f FORMAT]
+                     [--out-file OUT_FILE] [--name NAME] [--version VERSION]
+                     [--user USER] [--channel CHANNEL] [--requires REQUIRES]
+                     [--tool-requires TOOL_REQUIRES] [-b BUILD] [-r REMOTE |
+                     -nr] [-u [UPDATE]] [-pr PROFILE] [-pr:b PROFILE_BUILD]
+                     [-pr:h PROFILE_HOST] [-pr:a PROFILE_ALL] [-o OPTIONS]
+                     [-o:b OPTIONS_BUILD] [-o:h OPTIONS_HOST]
+                     [-o:a OPTIONS_ALL] [-s SETTINGS] [-s:b SETTINGS_BUILD]
+                     [-s:h SETTINGS_HOST] [-s:a SETTINGS_ALL] [-c CONF]
+                     [-c:b CONF_BUILD] [-c:h CONF_HOST] [-c:a CONF_ALL]
+                     [-l LOCKFILE] [--lockfile-partial]
+                     [--lockfile-out LOCKFILE_OUT] [--lockfile-clean]
+                     [--lockfile-overrides LOCKFILE_OVERRIDES] [-g GENERATOR]
+                     [-of OUTPUT_FOLDER] [-d DEPLOYER]
+                     [--deployer-folder DEPLOYER_FOLDER]
+                     [--deployer-package DEPLOYER_PACKAGE] [--build-require]
+                     [--envs-generation {false}]
+                     [path]
+conan install: error: unrecognized arguments: -e=CC=/Library/Developer/CommandLineTools/usr/bin/cc -e=CXX=/Library/Developer/CommandLineTools/usr/bin/c++ -e=LDFLAGS=
+ERROR: Exiting with code: 2
+CMake Error at conan.cmake:540 (message):
+  Conan install failed='2'
+Call Stack (most recent call first):
+  conan.cmake:882 (old_conan_cmake_install)
+  CMakeLists.txt:223 (conan_cmake_run)
+
+
+-- Configuring incomplete, errors occurred!
