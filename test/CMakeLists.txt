@@ -16,3 +16,5 @@ add_subdirectory(queue)
 add_subdirectory(spawn)
 add_subdirectory(rtt)
 add_subdirectory(timer)
+
+add_subdirectory(pregel)
